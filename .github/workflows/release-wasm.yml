@@ -59,5 +59,4 @@ jobs:
             exit 1
           fi
           gh release upload "${TAG_NAME}" "${asset_path}" \
-            --clobber \
-            --content-type application/wasm
+            --clobber
